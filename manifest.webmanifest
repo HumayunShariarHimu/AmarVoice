@@ -1,0 +1,17 @@
+{
+  "name": "Amar Voice",
+  "short_name": "Amar Voice",
+  "description": "রেকর্ড করুন, লিংক পান, শেয়ার করুন — ভয়েস কমেন্ট অ্যাপ।",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#05050b",
+  "theme_color": "#05050b",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

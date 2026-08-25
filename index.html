@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amar Voice | আপনার কণ্ঠে মনের কথা ছড়িয়ে দিন</title>
+<meta name="description" content="ভয়েস কমেন্ট রেকর্ড করুন, সাথে সাথে লিংক পান, ফেসবুক-ইউটিউব-হোয়াটসঅ্যাপে এক ক্লিকে শেয়ার করুন — সম্পূর্ণ ফ্রি। Amar Voice দিয়ে আপনার কণ্ঠে মনের কথা সবার কাছে ছড়িয়ে দিন।">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Humayun Shariar Himu">
+<meta name="theme-color" content="#05050b">
+<link rel="canonical" href="https://amarvoice.psychotech.top/">
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+
+<meta property="og:site_name" content="Amar Voice">
+<meta property="og:locale" content="bn_BD">
+<meta property="og:title" content="আপনার কণ্ঠে মনের কথা ছড়িয়ে দিন — Amar Voice">
+<meta property="og:description" content="ভয়েস কমেন্ট রেকর্ড করুন, লিংক পান, ফেসবুক-ইউটিউব-হোয়াটসঅ্যাপে এক ক্লিকে শেয়ার করুন — সম্পূর্ণ ফ্রি।">
+<meta property="og:image" content="https://amarvoice.psychotech.top/assets/cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://amarvoice.psychotech.top/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="আপনার কণ্ঠে মনের কথা ছড়িয়ে দিন — Amar Voice">
+<meta name="twitter:description" content="ভয়েস কমেন্ট রেকর্ড করুন, লিংক পান, ফেসবুক-ইউটিউব-হোয়াটসঅ্যাপে এক ক্লিকে শেয়ার করুন — সম্পূর্ণ ফ্রি।">
+<meta name="twitter:image" content="https://amarvoice.psychotech.top/assets/cover.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Amar Voice",
+  "alternateName": "আমার ভয়েস",
+  "description": "ভয়েস কমেন্ট রেকর্ড করুন, লিংক পান, ফেসবুক-ইউটিউব-হোয়াটসঅ্যাপে এক ক্লিকে শেয়ার করুন। প্রতিটি রেকর্ডিং ব্যবহারকারীর নিজস্ব Google Drive-এ জমা হয়।",
+  "url": "https://amarvoice.psychotech.top/",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "Any",
+  "browserRequirements": "Requires JavaScript and microphone access",
+  "inLanguage": "bn",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BDT" },
+  "author": { "@type": "Person", "name": "Humayun Shariar Himu" }
+}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YOUR_GA_ID_HERE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YOUR_GA_ID_HERE');
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="bg-glow"></div>
+
+<div id="configBanner" class="config-banner hidden">
+  ⚠️ <p>কনফিগারেশন নিশ্চিত করুন </p>
+</div>
+
+<header class="topbar">
+  <div class="logo">Amar<span>Voice</span></div>
+  <div id="userChip" class="user-chip hidden">
+    <img id="userAvatar" class="user-avatar" alt="">
+    <span id="userName"></span>
+    <button id="signOutBtn" type="button" class="icon-btn" title="সাইন আউট" aria-label="সাইন আউট">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Hero / sign-in ===== -->
+  <section id="heroSection" class="hero">
+    <div class="hero-orb">
+      <div class="ring"></div>
+      <div class="ring ring2"></div>
+      <div class="ring ring3"></div>
+      <div class="hero-orb-core">
+        <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0"/><path d="M12 18v3"/></svg>
+      </div>
+    </div>
+    <h1>আপনার কণ্ঠে মনের কথা ছড়িয়ে দিন</h1>
+    <p>একটি ভয়েস কমেন্ট রেকর্ড করুন, লিংক পেয়ে যান সাথে সাথে — ফেসবুক, ইউটিউব, হোয়াটসঅ্যাপ যেখানে খুশি পেস্ট করে দিন।</p>
+
+    <button id="signInBtn" type="button" class="btn btn-google">
+      <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true">
+        <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.1 29.3 35 24 35c-6.1 0-11-4.9-11-11s4.9-11 11-11c2.8 0 5.3 1 7.3 2.7l5.7-5.7C33.6 6.5 29 4.5 24 4.5 12.9 4.5 4 13.4 4 24.5s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.7-.4-4z"/>
+        <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 16 19 13.5 24 13.5c2.8 0 5.3 1 7.3 2.7l5.7-5.7C33.6 6.5 29 4.5 24 4.5c-7.4 0-13.8 4.1-17.1 10.2z"/>
+        <path fill="#4CAF50" d="M24 44.5c5.2 0 9.9-2 13.4-5.2l-6.2-5.3C29.1 35.7 26.7 36.5 24 36.5c-5.2 0-9.6-3.5-11.2-8.3l-6.6 5.1C9.4 40.3 16.1 44.5 24 44.5z"/>
+        <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-1.1 3-3.4 5.4-6.3 6.9l6.2 5.3C38.7 37.5 43 32 43 24.5c0-1.3-.1-2.7-.4-4z"/>
+      </svg>
+      <span id="signInBtnLabel">Google দিয়ে চালিয়ে যান</span>
+    </button>
+
+  <div class="how-it-works">
+    <center>  <div class="step">
+        <span class="step-num">ইন্সট্রাকশন</span>
+        <p>Google দিয়ে সাইন ইন করুন >>>
+ভয়েস রেকর্ড করে আপলোড করুন >>> এক ক্লিকে যেকোনো মাধ্যমে শেয়ার করুন</p>
+      </div>    
+      </div>
+      </center>
+  </section>
+
+  <!-- ===== Recorder ===== -->
+  <section id="recorderSection" class="recorder-section hidden">
+    <div class="recorder-card glass">
+
+      <div class="record-stage">
+        <canvas id="visualizer" class="visualizer"></canvas>
+        <button id="recordBtn" type="button" class="record-btn" aria-label="রেকর্ড শুরু/শেষ করুন">
+          <span class="record-btn-inner"></span>
+        </button>
+      </div>
+      <div id="timer" class="timer">00:00</div>
+      <p id="recordHint" class="hint">রেকর্ড শুরু করতে বাটনে চাপ দিন <span class="kbd-hint">অথবা Space চাপুন</span></p>
+
+      <!-- Preview (shown after stopping) -->
+      <div id="previewArea" class="preview-area hidden">
+        <div class="mini-player">
+          <button id="previewPlayBtn" type="button" class="play-btn" aria-label="প্রিভিউ চালান/থামান">
+            <svg class="icon-play" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+          </button>
+          <div class="wave-wrap">
+            <div id="previewWave" class="waveform-scrubber"></div>
+            <div class="time-row">
+              <span id="previewCurTime">00:00</span>
+              <span id="previewDurTime">00:00</span>
+            </div>
+          </div>
+          <a id="downloadBtn" class="icon-btn" title="ডিভাইসে ডাউনলোড করুন" aria-label="ডাউনলোড করুন">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          </a>
+        </div>
+        <audio id="previewAudio" preload="metadata" class="visually-hidden"></audio>
+
+        <label class="field-label" for="titleInput">শিরোনাম (ঐচ্ছিক)</label>
+        <input id="titleInput" type="text" class="text-input" placeholder="যেমনঃ জন্মদিনের শুভেচ্ছা" maxlength="80">
+
+        <div id="uploadProgress" class="progress-bar hidden">
+          <div id="uploadProgressFill" class="progress-fill"></div>
+          <span id="uploadProgressPct" class="progress-pct">0%</span>
+        </div>
+
+        <div class="preview-actions">
+          <button id="reRecordBtn" type="button" class="btn btn-ghost">আবার রেকর্ড</button>
+          <button id="uploadBtn" type="button" class="btn btn-primary"><span id="uploadBtnLabel">আপলোড করে লিংক নিন</span></button>
+        </div>
+      </div>
+
+      <!-- Result (shown after upload) -->
+      <div id="resultArea" class="result-area hidden">
+        <div class="result-icon-wrap">
+          <div class="result-icon">✓</div>
+          <div id="confettiHost" class="confetti-host"></div>
+        </div>
+        <p>আপনার ভয়েস কমেন্ট প্রস্তুত!</p>
+        <div class="link-box">
+          <input id="linkOutput" type="text" readonly aria-label="শেয়ার লিংক">
+          <button id="copyLinkBtn" type="button" class="btn btn-primary">কপি</button>
+        </div>
+        <button id="shareResultBtn" type="button" class="btn btn-share">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 10.6 15.4 6.4M8.6 13.4l6.8 4.2"/></svg>
+          সব মাধ্যমে শেয়ার করুন
+        </button>
+        <button id="newRecordingBtn" type="button" class="btn btn-outline">নতুন রেকর্ডিং</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Dashboard ===== -->
+  <section id="dashboardSection" class="dashboard hidden">
+    <h2>আপনার রেকর্ডিং</h2>
+    <div id="dashboardSkeleton" class="skeleton-list hidden">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+    <div id="recordingsList" class="recordings-list"></div>
+    <p id="emptyState" class="empty-state hidden">এখনো কোনো রেকর্ডিং নেই। উপরে থেকে প্রথমটি তৈরি করুন!</p>
+  </section>
+
+</main>
+
+<footer><b>AmarVoice</b> Represented by <b>Humayun Shariar Himu</b></footer>
+
+<div id="toastContainer" class="toast-container"></div>
+
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="js/config.js"></script>
+<script src="js/audio-ui.js"></script>
+<script src="js/share.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/drive.js"></script>
+<script src="js/recorder.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
